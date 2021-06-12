@@ -1,5 +1,5 @@
 import React,{Component,Fragment} from "react";
-//import Chart from '../node_modules/r-chart'
+import Chart from '../node_modules/r-chart'
 import './App.css';
 
 export default class App extends Component{
@@ -81,7 +81,7 @@ export default class App extends Component{
             <Fragment>
                 <h5>Try to drag points or click on points to open popup and edit clicked point (remove or edit)</h5>
                 <h5>Try to add point where plus is apear near mouse cursor (you can add point in empty places)</h5>
-                {/* <Chart
+                <Chart
                     data={[ 
                         {
                             type:'line',
@@ -106,7 +106,7 @@ export default class App extends Component{
                     onChange={this.change.bind(this)}
                     onAdd={this.add.bind(this)}
                     onRemove={this.remove.bind(this)}
-                /> */}
+                />
                 <h3>Logs</h3>
                 <div className='logs'>
                     <ul>
