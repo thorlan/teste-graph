@@ -74,7 +74,7 @@ export default class App extends Component{
             logs.push(`You removed this.state.sales[${pointIndex}]`)
             this.setState({sales,logs});
         }
-    }
+    } 
     render(){
         var {targets,sales,logs} = this.state;
         return (
